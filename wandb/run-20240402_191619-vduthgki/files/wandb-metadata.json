@@ -1,0 +1,31 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "3.11.1",
+    "heartbeatAt": "2024-04-02T12:16:20.708854",
+    "startedAt": "2024-04-02T12:16:19.762940",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/kunkerdthaisong/ipu/intern/train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "host": "kuns-MacBook-Air.local",
+    "username": "kunkerdthaisong",
+    "executable": "/usr/local/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 9.540138244628906
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

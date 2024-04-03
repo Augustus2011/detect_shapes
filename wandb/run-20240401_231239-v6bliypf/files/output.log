@@ -1,0 +1,45 @@
+[34m[1mtrain: [39m[22mScanning /Users/kunkerdthaisong/ipu/intern/train/labels... 9500 images, 0 backgrounds, 0 corrupt: 100%|██████████| 9500/9500 [00:01<00:0
+[34m[1mval: [39m[22mScanning /Users/kunkerdthaisong/ipu/intern/val/labels... 500 images, 0 backgrounds, 0 corrupt: 100%|██████████| 500/500 [00:00<00:00, 5800
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING ⚠️ imgsz=[300] must be multiple of max stride 32, updating to [320]
+[34m[1mtrain: [39m[22mNew cache created: /Users/kunkerdthaisong/ipu/intern/train/labels.cache
+[34m[1mval: [39m[22mNew cache created: /Users/kunkerdthaisong/ipu/intern/val/labels.cache
+  0%|          | 0/594 [00:00<?, ?it/s]
+Plotting labels to runs/detect/train/labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001429, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+Image sizes 320 train, 320 val
+Using 0 dataloader workers
+Logging results to [1mruns/detect/train
+Starting training for 15 epochs...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/15         0G      1.206      3.542      1.316         90        320:   3%|▎         | 20/594 [00:30<14:46,  1.54s/it]
+Traceback (most recent call last):
+  File "/Users/kunkerdthaisong/ipu/intern/train.py", line 4, in <module>
+    results=model.train(data='data.yaml',epochs=15,imgsz=300) #it will be defualt size at 320
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/ultralytics/engine/model.py", line 667, in train
+    self.trainer.train()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 198, in train
+    self._do_train(world_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 374, in _do_train
+    self.scaler.scale(self.loss).backward()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

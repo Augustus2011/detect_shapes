@@ -1,0 +1,233 @@
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING ⚠️ imgsz=[300] must be multiple of max stride 32, updating to [320]
+[34m[1mtrain: [39m[22mScanning /Users/kunkerdthaisong/i
+[34m[1mtrain: [39m[22mWARNING ⚠️ /Users/kunkerdthaisong/ipu/intern/train/images/numObs3_894.png: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /Users/kunkerdthaisong/ipu/intern/train/images/numObs5_873.png: 1 duplicate labels removed
+[34m[1mval: [39m[22mScanning /Users/kunkerdthaisong/ipu
+  0%|          | 0/1532 [00:00<?, ?it/s]
+[34m[1mtrain: [39m[22mNew cache created: /Users/kunkerdthaisong/ipu/intern/train/labels.cache
+[34m[1mval: [39m[22mNew cache created: /Users/kunkerdthaisong/ipu/intern/val/labels.cache
+Plotting labels to runs/detect/train6/labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001429, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+Image sizes 320 train, 320 val
+Using 0 dataloader workers
+Logging results to [1mruns/detect/train6
+Starting training for 20 epochs...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       1/20         0G     0.7372      1.814       1.05         99        320:  16%|█▌        | 239/1532 [06:12<33:34,  1.56s/it]
+Traceback (most recent call last):
+  File "/Users/kunkerdthaisong/ipu/intern/train.py", line 14, in <module>
+    results=model.train(data='data.yaml',epochs=20,imgsz=300) #eventually it will be defualt size at 320
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/ultralytics/engine/model.py", line 667, in train
+    self.trainer.train()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 198, in train
+    self._do_train(world_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 378, in _do_train
+    self.optimizer_step()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/ultralytics/engine/trainer.py", line 539, in optimizer_step
+    self.scaler.step(self.optimizer)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/cuda/amp/grad_scaler.py", line 340, in step
+    return optimizer.step(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/optim/lr_scheduler.py", line 68, in wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/optim/optimizer.py", line 373, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/optim/adamw.py", line 184, in step
+    adamw(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/optim/adamw.py", line 335, in adamw
+    func(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/torch/optim/adamw.py", line 413, in _single_tensor_adamw
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad, value=1 - beta2)
+KeyboardInterrupt

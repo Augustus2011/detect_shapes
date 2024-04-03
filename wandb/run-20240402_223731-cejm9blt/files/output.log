@@ -1,0 +1,22 @@
+[34m[1mtrain: [39m[22mScanning /Users/kunkerdthaisong/ipu/intern/train/labels... 4500 images, 0 backgrounds, 0 corrupt: 100%|██████████| 4500/4500 [00:00<00:0
+[34m[1mval: [39m[22mScanning /Users/kunkerdthaisong/ipu/intern/val/labels... 500 images, 0 backgrounds, 0 corrupt: 100%|██████████| 500/500 [00:00<00:00, 5410
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING ⚠️ imgsz=[300] must be multiple of max stride 32, updating to [320]
+[34m[1mtrain: [39m[22mNew cache created: /Users/kunkerdthaisong/ipu/intern/train/labels.cache
+[34m[1mval: [39m[22mNew cache created: /Users/kunkerdthaisong/ipu/intern/val/labels.cache
+Plotting labels to runs/detect/train8/labels.jpg...
+       1/10         0G     0.8165       3.44       1.03         44        320:   0%|          | 1/282 [00:01<07:28,  1.60s/it]
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.001429, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+Image sizes 320 train, 320 val
+Using 0 dataloader workers
+Logging results to [1mruns/detect/train8
+Starting training for 10 epochs...
+Closing dataloader mosaic
+
+
+
+
+
+
+       1/10         0G     0.9649      3.402      1.151         41        320:   3%|▎         | 9/282 [00:12<06:15,  1.38s/it]

@@ -1,0 +1,502 @@
+{
+    "random_shapes_0.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 2
+    },
+    "random_shapes_1.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_10.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_11.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_12.png": {
+        "circle": 2,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_13.png": {
+        "circle": 0,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_14.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 2
+    },
+    "random_shapes_15.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_16.png": {
+        "circle": 1,
+        "square": 2,
+        "triangle": 2
+    },
+    "random_shapes_17.png": {
+        "circle": 2,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_18.png": {
+        "circle": 0,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_19.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_2.png": {
+        "circle": 0,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_20.png": {
+        "circle": 2,
+        "square": 0,
+        "triangle": 0
+    },
+    "random_shapes_21.png": {
+        "circle": 2,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_22.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_23.png": {
+        "circle": 0,
+        "square": 0,
+        "triangle": 3
+    },
+    "random_shapes_24.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 2
+    },
+    "random_shapes_25.png": {
+        "circle": 2,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_26.png": {
+        "circle": 2,
+        "square": 0,
+        "triangle": 2
+    },
+    "random_shapes_27.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 2
+    },
+    "random_shapes_28.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_29.png": {
+        "circle": 0,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_3.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_30.png": {
+        "circle": 1,
+        "square": 2,
+        "triangle": 1
+    },
+    "random_shapes_31.png": {
+        "circle": 1,
+        "square": 3,
+        "triangle": 0
+    },
+    "random_shapes_32.png": {
+        "circle": 1,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_33.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_34.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 2
+    },
+    "random_shapes_35.png": {
+        "circle": 0,
+        "square": 0,
+        "triangle": 3
+    },
+    "random_shapes_36.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_37.png": {
+        "circle": 1,
+        "square": 2,
+        "triangle": 1
+    },
+    "random_shapes_38.png": {
+        "circle": 0,
+        "square": 0,
+        "triangle": 3
+    },
+    "random_shapes_39.png": {
+        "circle": 2,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_4.png": {
+        "circle": 1,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_40.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_41.png": {
+        "circle": 2,
+        "square": 0,
+        "triangle": 0
+    },
+    "random_shapes_42.png": {
+        "circle": 2,
+        "square": 0,
+        "triangle": 2
+    },
+    "random_shapes_43.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_44.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_45.png": {
+        "circle": 0,
+        "square": 2,
+        "triangle": 1
+    },
+    "random_shapes_46.png": {
+        "circle": 0,
+        "square": 2,
+        "triangle": 1
+    },
+    "random_shapes_47.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_48.png": {
+        "circle": 0,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_49.png": {
+        "circle": 0,
+        "square": 2,
+        "triangle": 1
+    },
+    "random_shapes_5.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 2
+    },
+    "random_shapes_50.png": {
+        "circle": 2,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_51.png": {
+        "circle": 0,
+        "square": 3,
+        "triangle": 1
+    },
+    "random_shapes_52.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_53.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_54.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_55.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_56.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_57.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 2
+    },
+    "random_shapes_58.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 3
+    },
+    "random_shapes_59.png": {
+        "circle": 0,
+        "square": 0,
+        "triangle": 2
+    },
+    "random_shapes_6.png": {
+        "circle": 2,
+        "square": 0,
+        "triangle": 2
+    },
+    "random_shapes_60.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_61.png": {
+        "circle": 0,
+        "square": 2,
+        "triangle": 3
+    },
+    "random_shapes_62.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_63.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 3
+    },
+    "random_shapes_64.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_65.png": {
+        "circle": 1,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_66.png": {
+        "circle": 3,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_67.png": {
+        "circle": 0,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_68.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_69.png": {
+        "circle": 2,
+        "square": 1,
+        "triangle": 2
+    },
+    "random_shapes_7.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_70.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_71.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_72.png": {
+        "circle": 2,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_73.png": {
+        "circle": 2,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_74.png": {
+        "circle": 1,
+        "square": 3,
+        "triangle": 0
+    },
+    "random_shapes_75.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_76.png": {
+        "circle": 2,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_77.png": {
+        "circle": 0,
+        "square": 3,
+        "triangle": 0
+    },
+    "random_shapes_78.png": {
+        "circle": 1,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_79.png": {
+        "circle": 0,
+        "square": 0,
+        "triangle": 2
+    },
+    "random_shapes_8.png": {
+        "circle": 0,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_80.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_81.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_82.png": {
+        "circle": 2,
+        "square": 1,
+        "triangle": 2
+    },
+    "random_shapes_83.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_84.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_85.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 2
+    },
+    "random_shapes_86.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_87.png": {
+        "circle": 2,
+        "square": 0,
+        "triangle": 0
+    },
+    "random_shapes_88.png": {
+        "circle": 2,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_89.png": {
+        "circle": 0,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_9.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 2
+    },
+    "random_shapes_90.png": {
+        "circle": 0,
+        "square": 3,
+        "triangle": 2
+    },
+    "random_shapes_91.png": {
+        "circle": 1,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_92.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 0
+    },
+    "random_shapes_93.png": {
+        "circle": 3,
+        "square": 0,
+        "triangle": 1
+    },
+    "random_shapes_94.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 1
+    },
+    "random_shapes_95.png": {
+        "circle": 1,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_96.png": {
+        "circle": 1,
+        "square": 1,
+        "triangle": 2
+    },
+    "random_shapes_97.png": {
+        "circle": 0,
+        "square": 0,
+        "triangle": 2
+    },
+    "random_shapes_98.png": {
+        "circle": 1,
+        "square": 2,
+        "triangle": 0
+    },
+    "random_shapes_99.png": {
+        "circle": 0,
+        "square": 1,
+        "triangle": 1
+    }
+}

@@ -1,0 +1,10 @@
+
+train: /Users/kunkerdthaisong/ipu/intern/train # train images (relative to 'path') 128 images
+val: /Users/kunkerdthaisong/ipu/intern/val # val images (relative to 'path') 128 images
+
+
+# Classes
+names:
+  0: circle
+  1: rectangle
+  2: triangle
